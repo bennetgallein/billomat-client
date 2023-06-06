@@ -1,30 +1,33 @@
 {
-    "name": "certado/billomat-client",
-    "type": "library",
-    "license": "MIT",
-    "description": "PHP library for interacting with the Billomat REST API",
-    "keywords": [
-        "billomat",
-        "invoice",
-        "billing"
-    ],
-    "homepage": "https://github.com/certado/billomat-client",
-    "authors": [
-        {
-            "name": "Andreas Kintzinger",
-            "homepage": "https://github.com/Phobetor/",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php": ">=7.4",
-        "ext-curl": "*",
-        "guzzlehttp/guzzle": "^7.2.0",
-        "guzzlehttp/guzzle-services": "^1.2.0"
+  "name": "bennetgallein/billomat-client",
+  "type": "library",
+  "license": "MIT",
+  "description": "PHP library for interacting with the Billomat REST API",
+  "keywords": [
+    "billomat",
+    "invoice",
+    "billing"
+  ],
+  "homepage": "https://github.com/bennetgallein/billomat-client",
+  "authors": [
+    {
+      "name": "Andreas Kintzinger",
+      "homepage": "https://github.com/Phobetor/",
+      "role": "Developer"
     },
-    "autoload": {
-        "psr-4": {
-            "Phobetor\\Billomat\\": "src/"
-        }
+    {
+      "name": "Bennet Gallein"
     }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "ext-curl": "*",
+    "guzzlehttp/guzzle": "^7.2.0",
+    "guzzlehttp/guzzle-services": "^1.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Phobetor\\Billomat\\": "src/"
+    }
+  }
 }
